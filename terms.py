@@ -27,7 +27,7 @@ async def main():
     future_result = await future
     print(f"Future result: {future_result}")
 
-    # COROUTINE #
+    # COROUTINE 
     coroutine_obj = async_function("Hello, Coroutine!")
     print(f"Coroutine object: {coroutine_obj}")
     coroutine_result = await coroutine_obj
